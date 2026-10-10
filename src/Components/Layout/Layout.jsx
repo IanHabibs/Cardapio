@@ -1,7 +1,10 @@
-import React from 'react'
+import CardContainer from '../CardContainer/CardContainer'
 
 export default function Layout() {
   return (
-    <div>Layout</div>
+    <div>
+      <h1>Cardápio</h1>
+      <CardContainer />
+    </div>
   )
 }
